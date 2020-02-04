@@ -6,7 +6,7 @@ namespace Iri.Plugin.Tests
 {
     public class PluginLoaderTests
     {
-        private PluginLoader<IPlugin> _loader = new PluginLoader<IPlugin>();
+        private readonly PluginLoader<IPlugin> _loader = new PluginLoader<IPlugin>();
 
         [Fact]
         public void CanLoadInstancePlugin()

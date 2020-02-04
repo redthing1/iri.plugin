@@ -1,4 +1,4 @@
-﻿using CookieIoC;
+﻿using Iri.IoC;
 using Iri.Plugin.Tests.Types.MapGen;
 
 namespace Iri.Plugin.Tests.Types

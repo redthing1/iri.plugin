@@ -1,12 +1,12 @@
 ﻿using Iri.Plugin.Tests.Types;
-using Osmium.PluginEngine.Types;
+using Iri.Plugin.Types;
 using Xunit;
 
 namespace Iri.Plugin.Tests
 {
     public class PluginLoaderTests
     {
-        private PluginLoader<IOsmiumPlugin> _loader = new PluginLoader<IOsmiumPlugin>();
+        private PluginLoader<IPlugin> _loader = new PluginLoader<IPlugin>();
 
         [Fact]
         public void CanLoadInstancePlugin()

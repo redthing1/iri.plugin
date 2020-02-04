@@ -1,5 +1,5 @@
-﻿using CookieIoC;
-using System;
+﻿using System;
+using Iri.IoC;
 
 namespace Iri.Plugin.Tests.Types
 {

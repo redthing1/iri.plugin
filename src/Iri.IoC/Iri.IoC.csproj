@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Version>2.3.1</Version>
+        <Description>simple ioc library</Description>
+    </PropertyGroup>
+
+</Project>

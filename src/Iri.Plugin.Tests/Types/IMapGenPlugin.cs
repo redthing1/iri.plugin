@@ -1,8 +1,8 @@
-﻿using Osmium.PluginEngine.Types;
+﻿using Iri.Plugin.Types;
 
 namespace Iri.Plugin.Tests.Types
 {
-    internal interface IMapGenPlugin : IOsmiumPlugin
+    internal interface IMapGenPlugin : IPlugin
     {
         string Name { get; }
     }

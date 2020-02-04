@@ -3,6 +3,12 @@
 
 universal plugin engine for .net
 
-## concepts
+# concepts
 
 TODO
+
+## plugin
+
+## container
+
+## plugin loader
